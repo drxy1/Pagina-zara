@@ -1,3 +1,4 @@
+/*Componente general*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,6 +15,7 @@ body {
   animation: fadeIn 1s ease-in;
 }
 
+/*Componente header*/
 header {
   background-color: #291C0E;
   padding: 20px;
@@ -42,6 +44,7 @@ nav a {
   font-weight: bold;
 }
 
+/*Componente hero*/
 .hero {
   width: 100%;
   height: 380px;
@@ -57,6 +60,7 @@ nav a {
   text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 }
 
+/*Componente de busqueda*/
 .busqueda {
   display: flex;
   justify-content: center;
@@ -83,6 +87,7 @@ nav a {
   font-weight: bold;
 }
 
+/*Componente de los filtros*/
 .filtros {
   display: flex;
   justify-content: center;
@@ -104,6 +109,7 @@ nav a {
   border: 1px solid #ccc;
 }
 
+/*Componente de los cuadros con la informacion*/
 .cuadros {
   display: flex;
   flex-wrap: wrap;
@@ -146,6 +152,7 @@ nav a {
   list-style-type: disc;
 }
 
+/*Componente de los productos*/
 .productos {
   padding: 40px 20px;
   display: grid;
@@ -216,6 +223,7 @@ nav a {
   opacity: 0.85;
 }
 
+/*Componente del footer*/
 .footer {
   background-color: #291C0E;
   color: #E1D4C2;
@@ -234,7 +242,7 @@ nav a {
 .footer a:hover {
   color: #fff;
 }
-
+ /*Componente de las animaciones*/
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
